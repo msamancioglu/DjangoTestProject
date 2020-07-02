@@ -1,18 +1,11 @@
 # DjangoTestProject
+
 Testing a project written in Django + Rest Frameworks
 
 
-# Run django test and create coverage xml/report
-
-create and activate virtual env   -->  python3 -m venv env
-                                  --> . env/bin/activate
-
-install project requirements   -->  pip3 install -r requirements.txt
-  
-delete old reports(if any)   -->  coverage erase
-
-run django test(manage.py test) and create test coverage   --->  coverage run --source='.' --omit=env/* manage.py test
-
-show coverage report   ->>  coverage report
-
-create coverage.xml   -->   coverage xml
+# Download and run test 
+ 
+git clone https://github.com/msamancioglu/DjangoTestProject.git
+cd DjangoTestProject/
+sudo  chmod +x django-test.sh
+sudo ./django-test.sh
