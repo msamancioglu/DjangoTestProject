@@ -2,6 +2,11 @@
 
 Testing a project written in Django + Rest Frameworks
 
+# Elasticsearch logging functionality 
+
+App logs user activity/functions called to elasticsearch via python/django signals
+
+
 
 # P.S.
 - Please make sure pyton3 python-venv pip3 git softwares/packages were installed on your system properly before running codes below
