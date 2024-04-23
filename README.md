@@ -4,7 +4,7 @@ Testing a project written in Django + Rest Frameworks
 
 # Elasticsearch logging functionality 
 
-App logs user activity/functions called to elasticsearch via python/django signals
+App logs user activity/functions logged to elasticsearch via python/django signals
 
 
 
